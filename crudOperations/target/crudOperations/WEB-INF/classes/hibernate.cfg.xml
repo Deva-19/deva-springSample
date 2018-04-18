@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+ <!DOCTYPE hibernate-configuration PUBLIC
+          "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+          "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+
+	<session-factory>
+			
+		<property name="hibernate.connection.driver_class">com.microsoft.sqlserver.jdbc.SQLServerDriver</property>
+		<property name="hibernate.connection.username">sa</property>
+		<property name="hibernate.connection.password">Sql123$</property>
+		<property name="hibernate.connection.url">jdbc:sqlserver://192.168.20.87\SQLEXPRESS:1433;databaseName=loginDb</property>
+		<property name="hibernate.dialect">org.hibernate.dialect.SQLServerDialect</property> 
+		
+
+		<!-- Mapped Entities--> 
+
+			 <mapping class="com.ofs.spring.model.UserModel" />
+			 
+		  
+		</session-factory>
+</hibernate-configuration>
