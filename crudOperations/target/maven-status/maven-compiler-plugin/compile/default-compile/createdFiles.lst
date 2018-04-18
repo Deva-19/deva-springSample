@@ -1,0 +1,15 @@
+com\ofs\spring\exception\DaoException.class
+com\ofs\spring\exception\userNameAlreadyDeletedException.class
+com\ofs\spring\service\UserDetailServiceImpl.class
+com\ofs\spring\exception\ServiceException.class
+com\ofs\spring\dao\UserDetailDao.class
+com\ofs\spring\exception\userNameAlreadyExsists.class
+com\ofs\spring\exception\SuccessMessage.class
+com\ofs\spring\service\UserDetailService.class
+com\ofs\spring\CORSFilter\WebConfig.class
+com\ofs\spring\model\UserModel.class
+com\ofs\spring\controller\UserDetailController.class
+com\ofs\spring\exception\CustomeException.class
+com\ofs\spring\exception\ErrorResponse.class
+com\ofs\spring\dao\UserDetailDaoImpl.class
+com\ofs\spring\util\HibernateUtil.class
